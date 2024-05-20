@@ -4,6 +4,7 @@
 // Did this code successfully run on Leetcode : Yes
 // Any problem you faced while coding this : No
 // Your code here along with comments explaining your approach: I have created a list of list to store the result. I have added the first row to the result list. Then I have iterated over the numRows and for each row I have created a new row and added it to the result list. I have added 1 to the start and end of each row and for the middle elements I have added the sum of the previous row elements at j-1 and jth index. Finally I have returned the result list.
+
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<>();
